@@ -1,0 +1,142 @@
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-flow: row;
+}
+
+.colmun {
+  flex-flow: column;
+}
+
+.j-start {
+  justify-content: flex-start;
+}
+
+.j-end {
+  justify-content: flex-end;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-around {
+  justify-content: space-around;
+}
+
+/*flex-start | flex-end | center | space-between | space-around*/
+
+.a-start {
+  align-items: flex-start;
+}
+
+.a-end {
+  align-items: flex-end;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.a-baseline {
+  align-items: baseline;
+}
+
+.a-stretch {
+  align-items: stretch;
+}
+
+/*flex-start | flex-end | center | baseline | stretch;*/
+
+.hiddenT {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.textHidden4 {
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  word-wrap: break-word
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.confirm-button {
+  color: #FF644C
+}
+
+.cancel-button {
+  color: #666666;
+}
+
+.mint-msgbox-message {
+  color: #333333;
+}
+
+.mint-popup-bottom {
+  width: 100%;
+}
+
+.confirm-order {
+  text-align: left;
+  color: #666666;
+}
+
+.confirm-order-title {
+  padding: 10px;
+  text-align: center;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 700
+}
+
+.confirm-order-detail {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 29px;
+}
+
+.confirm-order-detail .confirm-order-row {
+  width: 80px;
+  text-align: right;
+}
+
+.confirm-order-detail .act {
+  width: 140px;
+  text-align: right;
+}
+
+.confirm-order-detail .confirm-order-data {
+  width: 130px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.mint-datetime-cancel {
+  color: #FF3633;
+}
+
+.mint-datetime-confirm {
+  color: #FF3633;
+}
+
+.info {
+  color: #666
+}
+
+.mt15 {
+  margin-top: 15px;
+}
