@@ -36,7 +36,7 @@ import store from './store'
 export default {
   name: 'App',
   created() {
-    // 网络差时输入框失去焦点
+    //  网络差时输入框失去焦点
     if (this.no_wify) {
       document.querySelector('input').blur()
     }
